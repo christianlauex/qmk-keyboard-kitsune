@@ -1,13 +1,13 @@
 # Kitsune
 
-![Kitsune PCB in Tray case](https://github.com/christianlauex/cls-keyboard/blob/master/assets/main.jpg?raw=true)
+![Kitsune PCB in Tray case](https://github.com/christianlauex/clkb-keyboard/blob/master/assets/main.jpg?raw=true)
 
-![Kitsune PCB](https://github.com/christianlauex/cls-keyboard/blob/master/assets/cls_kitsune_pcb_v1.0.jpg?raw=true)
+![Kitsune PCB](https://github.com/christianlauex/clkb-keyboard/blob/master/assets/clkb_kitsune_pcb_v1.0.jpg?raw=true)
 
-The Kitsune PCB is the official PCB for the [CLS Keyboard](https://github.com/christianlauex/cls-keyboard).
+The Kitsune PCB is the official PCB for the [CLKB (Compact Layer Keyboard)](https://github.com/christianlauex/clkb-keyboard).
 
 * Keyboard Maintainer: [Christian Lau](https://github.com/christianlauex)
-* Hardware Supported: CLS Kitsune v1.0
+* Hardware Supported: CLKB Kitsune v1.0
 * Hardware Availability: TBD <!-- [Humanworks]() -->
 
 ## Build Firmware

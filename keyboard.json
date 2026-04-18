@@ -4,7 +4,7 @@
     "manufacturer": "Humanworks",
     "url": "https://github.com/christianlauex/qmk-keyboard-kitsune",
     "bootloader": "stm32-dfu",
-    "processor": "STM32F072",
+    "processor": "STM32G0B1",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x4B40",
@@ -36,8 +36,8 @@
         "driver": "spi"
     },
     "matrix_pins": {
-        "cols": ["B11", "B10", "B2", "B1", "B0", "A7", "A6", "A5", "A4", "A3", "B9", "B8"],
-        "rows": ["B15", "B14", "B13", "B12"]
+        "cols": ["B10", "B2", "B1", "B0", "A7", "A6", "A5", "A4", "A3", "A2", "B9", "B8"],
+        "rows": ["A8", "B15", "B14", "B13"]
     },
     "diode_direction": "COL2ROW",
     "layouts": {

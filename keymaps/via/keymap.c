@@ -117,7 +117,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             if (record->event.pressed) {
                 uint8_t new_val = qadd8(rgblight_config.val, RGBLIGHT_VAL_STEP);
                 rgblight_config.val = new_val;
-                eeconfig_update_rgblight(rgblight_config.raw);
+                eeconfig_update_rgblight(&rgblight_config);
                 rgblight_set();
             }
             return false;
@@ -125,7 +125,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             if (record->event.pressed) {
                 uint8_t new_val = qsub8(rgblight_config.val, RGBLIGHT_VAL_STEP);
                 rgblight_config.val = new_val;
-                eeconfig_update_rgblight(rgblight_config.raw);
+                eeconfig_update_rgblight(&rgblight_config);
                 rgblight_set();
             }
             return false;
